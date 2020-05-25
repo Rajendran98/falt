@@ -1296,31 +1296,33 @@ input.transparent-input{
     overflow: hidden;
     height: 100%;	
     vertical-align: middle;
+    text-align: center;
     
 }
 
 .first-section::before {
     content: "";
     position: absolute;
-    height: 60%;
+    height: 100%;
     width: 100%;
-	top: 25%;
-    left: 20%;
-    bottom: 25%;
+	top: 0%;
+   
    
     display: block;
-    background: rgba(0,0,0,0.7);
+  
   
   
 }
-.first-section h2 {
-    color: wheat;
-     font-size: 18px;
-      position: absolute; 
-      top: 30%; 
-      left: 25%; 
-      text-transform: uppercase;
+
+.first-section h2{
+    color: #f7a606;
+    text-align: center; 
+    font-size: 25px; 
+    font-weight: 500;
+    text-transform: uppercase;
+   
 }
+
 
 
 
