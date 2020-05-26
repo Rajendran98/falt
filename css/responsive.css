@@ -8,6 +8,11 @@
 		margin: 0px 5px;
 	}
 }
+@media (min-width: 1200px){
+	.first-section h2{
+		font-size: 24px;
+	}
+}
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
@@ -111,6 +116,7 @@
 	}
 	.first-section h2{
 		font-size: 25px;
+		text-align: center;
 	}
 	.first-section .lead{
 		font-size: 14px;
@@ -241,6 +247,7 @@
 	
 	.first-section h2{
 		font-size: 18px;
+		text-align: center;
 	}
 	.first-section .lead{
 		font-size: 14px;
