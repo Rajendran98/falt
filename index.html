@@ -150,19 +150,19 @@
 						<li class="nav-item"><a class="nav-link" href="#technology">Technology </a></li>
                         <li class="nav-item"><a class="nav-link" href="#career">Careers </a></li>
 						<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-						<li class="nav-item"><a class="nav-link share-btn" ><i class="fa fa-share-alt"></i> &nbsp; Share</a></li>
-					<!--	<li class="nav-item dropdown">
+					<!--	<li class="nav-item"><a class="nav-link share-btn" ><i class="fa fa-share-alt"></i> &nbsp; Share</a></li>-->
+						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown"><i class="fa fa-share-alt"></i> &nbsp; Share </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-                                <a class="dropdown-item" style="color: white;" href="http://www.facebook.com/sharer.php?u=https://www.secquraise.com"><i class="fa fa-facebook"></i> &nbsp;Facebook </a>
+                                <a class="dropdown-item" style="color: white;" href="http://www.facebook.com/sharer.php?u=https://www.secquraise.com" target="_blank"><i class="fa fa-facebook"></i> &nbsp;Facebook </a>
                                 <a class="dropdown-item" style="color: white;" href="http://twitter.com/share?text=SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems,&url=https://www.secquraise.com"><i class="fa fa-twitter"></i> &nbsp;Twitter </a>
-								<a class="dropdown-item" style="color: white;" href="https://www.instagram.com/direct/inbox/?text=https://www.secquraise.com">SECQURVISIT </a>
-								<a class="dropdown-item" style="color: white;" href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text=urlencodedtext">SECQURWORK </a>
-								<a class="dropdown-item" style="color: white;" href="">SECQURCHECK </a>
-								
+								<a class="dropdown-item" style="color: white;" href="https://reddit.com/submit/?url=https://www.secquraise.com&amp;title=SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems," target="_blank"><i class="fa fa-reddit"></i> &nbsp;Reddit </a>
+								<a class="dropdown-item" style="color: white;" href="https://pinterest.com/pin/create/button/?url=https://www.secquraise.com&amp;media=https://www.secquraise.com&amp;description=SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems," target="_blank"><i class="fa fa-pinterest"></i> &nbsp;Pinterest </a>
+								<a class="dropdown-item" style="color: white;" href="mailto:?subject=SecqurAIse Technologies leverages Artificial Intelligence to solve everyday problems,&amp;body=https://www.secquraise.com"><i class="fa fa-envelope"></i> &nbsp;Email </a>
+								<a class="dropdown-item share-btn" style="color: white;" ><i class="fa fa-comment"></i> &nbsp; Text Message </a>
 							</div>
 						</li>
-					</ul> -->
+					</ul> 
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span style="color: white;">Contact</span></a></li>
                     </ul>
@@ -1074,13 +1074,15 @@
         if (navigator.share) {
           navigator.share({
               title: 'Secquraise Technologies',
-              text: 'Increase Efficiency and Reduce Cost',
+              text: 'Secquraise Technologies Increase Efficiency and Reduce Cost',
               url: 'https://www.secquraise.com',
           })
             .then(() => console.log('Successful share'))
             .catch((error) => console.log('Error sharing', error));
         }
       });
+
+	
 	</script>
 </body>
 </html>
