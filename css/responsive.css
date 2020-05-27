@@ -17,6 +17,10 @@
 	.box-slider{
 		height: 100%;
 	}
+	.first-section h2{
+		padding-bottom: 10px;
+		font-size: 18px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -121,7 +125,7 @@
 		display: none;
 	}
 	.first-section h2{
-		font-size: 20px;
+		font-size: 18px;
 		text-align: center;
 	}
 	.first-section .lead{
