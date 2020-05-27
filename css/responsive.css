@@ -13,6 +13,12 @@
 		font-size: 24px;
 	}
 }
+@media (min-height: 250px) and  (max-height: 415px){
+	.box-slider{
+		height: 100%;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
@@ -115,7 +121,7 @@
 		display: none;
 	}
 	.first-section h2{
-		font-size: 25px;
+		font-size: 20px;
 		text-align: center;
 	}
 	.first-section .lead{
@@ -322,7 +328,7 @@
 		margin-bottom: 30px;
 	}
 	.section{
-		padding: 40px 0;
+		padding: 0px 0;
 	}
 	.dmoain-pricing table th{
 		font-size: 14px;
