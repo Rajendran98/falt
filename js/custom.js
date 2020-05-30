@@ -82,7 +82,7 @@
 
     $(document).ready(function(){
         $(window).scroll(function () {
-                if ($(this).scrollTop() <= 5500  ) {
+                if ($(this).scrollTop() <= 10000  ) {
                     $('#dmtop1').fadeIn();
                 } else {
                     $('#dmtop1').fadeOut();
@@ -91,7 +91,7 @@
             // scroll body to 0px on click
             $('#dmtop1').click(function () {
                 $('body,html').animate({
-                    scrollTop: 10000
+                    scrollTop: 20000
                 }, 0);
                 return false;
             });
